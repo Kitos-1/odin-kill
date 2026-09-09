@@ -1,0 +1,9 @@
+# Exclude build artifacts
+# See https://github.com/github/linguist
+*.yml linguist-detectable=false
+src/*.ts linguist-detectable
+* text=auto
+*.ts linguist-detectable  
+vendor/* linguist-vendored
+public/** linguist-vendored
+# eof c85e3874
